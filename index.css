@@ -1,0 +1,416 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #d4dadf;
+}
+.nav{
+    background-color: #fff;
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 80px;
+    margin-bottom: 500px;
+}
+.navBtn{
+    font-size: 25px;
+    padding: 15px 35px;
+    background-color: black;
+    color: #fff;
+}
+.div1{
+    margin-top: -300px;
+    margin-bottom: 300px;
+}
+.background {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.black:hover{
+    background-color: rgb(5, 5, 5) !important;
+    
+}
+.temp{
+    margin-top: 100px;
+}
+.white:hover{
+    background-color: rgb(239, 235, 235) !important;
+    color: black;
+}
+.background::before {
+    content: "";
+    background-image: url('https://www.harvard.edu/wp-content/uploads/2023/06/090319_Return_007-2000x1333.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+}
+
+.div1 , .nav {
+    position: relative;
+    color: black;
+    font-size: 1rem;
+    line-height: 0.9;
+    text-align: center;
+}
+
+.span {
+    font-size: 25px;
+    padding-right: 10px;
+    /* height: 30px; */
+    background-color: rgb(254, 82, 82);
+    border-radius: 50%;
+    color: #fff;
+    
+}
+.span:hover{
+    background-color: rgb(41, 41, 41);
+}
+.div1_btn span{
+    padding: 15px;
+    font-size: 20px;
+}
+.h1 {
+    justify-content: center;
+    margin-bottom: 25px;
+    color: black;
+    display: flex;
+    font-size: 78px;
+    font-weight: 100;
+    align-items: center;
+    font-style: unset;
+}
+
+.para_h1 {
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
+.div1_btn {
+    display: block;
+    margin: 15px auto;
+    padding: 14px 15px;
+    background: 0;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.div2_img {
+    max-width: 40%;
+
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.container1 div{
+    width: 100%;
+    font-size: 25px;
+}
+#div2_h2 {
+    /* text-align: left; */
+    display: -webkit-inline-flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding: 10px;
+
+}
+.div2_btn{
+    font-size: 20px;
+}
+.div2_btn .span{
+    padding: 5px;
+    background-color: rgb(88, 87, 87);
+    margin: 10px;
+}
+.div2_btn {
+    display: block;
+    margin: 15px auto;
+    width: fit-content;
+    /* border: 1px solid #ff004f;  */
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    /* color: #fff; */
+    transition: backgroud 0.5s;
+    cursor: pointer;
+}
+
+.div2_p {
+    /* text-align: center; */
+    padding-left: 15px;
+}
+
+/* div3 */
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+
+}
+
+.layer h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.layer a {
+    margin-top: 20px;
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work:hover img {
+    transform: scale(1.1);
+
+}
+
+.work:hover .layer {
+    height: 50%;
+
+}
+
+.btn {
+    display: block;
+    margin: 5px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: backgroud 0.5s;
+
+}
+
+.btn:hover {
+    background: #ff004f;
+
+}
+
+/* div4 */
+.div4_h3 {
+    font-size: 50px;
+    padding: 25px;
+    width:80%;
+}
+
+.div4_p3 {
+    font-size: 25px;
+    padding: 25px;
+    text-align: start;
+    width: 80%;
+}
+
+#div4{
+    display: flex;
+    justify-content: space-between;
+}
+.images{
+    max-width:150px;
+    max-height: 150px;
+    transition: transform .2s;
+}
+.meanding{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.div9{
+    display: flex;
+    justify-content: space-between;
+}
+.value{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.valueImage{
+    transition: transform .2s;
+}
+.value:hover .valueImage{
+    transform: scale(0.9.5);
+}
+.value:hover .div9_h3{
+    text-decoration: underline;
+}
+.meanding:hover .div9_meading{
+    text-decoration: underline;
+}
+.meanding:hover .images{
+    transform: scale(0.9);
+}
+/* div5 */
+.background2 {
+    height: 100vh;
+    background: url(https://www.harvard.edu/wp-content/uploads/2023/06/040315_Features_1862-2000x1333.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(0px);
+    width: 90%;
+    height: 90vh;
+    display: grid;
+    place-items: center;
+}
+
+.div5_para {
+    font-size: 25px;
+}
+.div5{
+    margin: 0 5%;
+}
+.div5 .background{
+    width: 100%;
+}
+.div5 h1, .div5 p, .div5 span{
+    color: #fff;
+}
+
+.div5_btn {
+    justify-content: center;
+    color: rgb(34, 31, 31);
+    /* padding: 315px 30px; */
+    display: flex;
+    font-size: 28px;
+    font-weight: 100;
+    align-items: center;
+    font-style: unset;
+}
+
+/* div6 */
+.div6_h3 {
+    font-size: 57px;
+}
+
+.div6_para {
+    font-size: 28px;
+}
+
+.div6_btn {}
+
+/* div8 */
+#div8_h3 {
+    font-size: 55px;
+}
+
+/* div9 */
+.div9_h3 {
+    font-size: 55px;
+}
+
+.div9_para {
+    font-size: 21px;
+}
+
+.div9_pat {
+    font-size: 26px;
+}
+
+.div9-meading {
+    font-size: 22px;
+}
+.div9_meading{
+    font-size: 25px;
+}
+footer{
+    background-color: black;
+    padding: 25px 15px;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot > div > p{
+    color: #fff;
+    font-size: 20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.flex p span{
+    padding: 5px;
+}
+@media screen and (max-width: 1024px) {
+    .container1{
+        flex-direction: column;
+        width: 1000px;
+    }
+    .container1 > .div2_img{
+        max-width: 100%;
+    }
+    .div9{
+        flex-direction: column;
+    }
+    .navBtn{
+        background-color: transparent;
+        border: 0;
+        color: #171616;
+        padding: 15px;
+    }
+    .nav{
+        background-color: transparent;
+    }
+}
